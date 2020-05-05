@@ -1,0 +1,487 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAFxxUV7W459Nd8=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFxxUV7Wo57984="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFxxUV7W45+1BE=",
+									"_parent": {
+										"$ref": "AAAAAAFxxUV7W459Nd8="
+									},
+									"model": {
+										"$ref": "AAAAAAFxxUV7Wo57984="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFxxUV7W45/i0w=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7W45+1BE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -240,
+											"top": -64,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFxxUV7W46AgXQ=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7W45+1BE="
+											},
+											"font": "Arial;13;1",
+											"left": 349,
+											"top": 255,
+											"width": 294.4169921875,
+											"height": 13,
+											"text": "Prezydent"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFxxUV7XI6BMBQ=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7W45+1BE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -240,
+											"top": -64,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFxxUV7XI6CXxk=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7W45+1BE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -240,
+											"top": -64,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 344,
+									"top": 248,
+									"width": 304.4169921875,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFxxUV7W45/i0w="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFxxUV7W46AgXQ="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFxxUV7XI6BMBQ="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFxxUV7XI6CXxk="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFxxUV7XI6DFIU=",
+									"_parent": {
+										"$ref": "AAAAAAFxxUV7W459Nd8="
+									},
+									"model": {
+										"$ref": "AAAAAAFxxUV7Wo57984="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFxxUbaaY6pD9Y=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7XI6DFIU="
+											},
+											"model": {
+												"$ref": "AAAAAAFxxUbaFY6m7+w="
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 278,
+											"width": 294.4169921875,
+											"height": 13,
+											"underline": true,
+											"text": "-aktualny_prezydent: Prezydent*",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFxxVMEso70TVk=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7XI6DFIU="
+											},
+											"model": {
+												"$ref": "AAAAAAFxxVMEU47xvFk="
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 293,
+											"width": 294.4169921875,
+											"height": 13,
+											"text": "+imię: string",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFxxVNUM477txY=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7XI6DFIU="
+											},
+											"model": {
+												"$ref": "AAAAAAFxxVNT1474gbw="
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 308,
+											"width": 294.4169921875,
+											"height": 13,
+											"text": "+nazwisko: string",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 344,
+									"top": 273,
+									"width": 304.4169921875,
+									"height": 53
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFxxUV7XI6EsAU=",
+									"_parent": {
+										"$ref": "AAAAAAFxxUV7W459Nd8="
+									},
+									"model": {
+										"$ref": "AAAAAAFxxUV7Wo57984="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFxxUestI646yg=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7XI6EsAU="
+											},
+											"model": {
+												"$ref": "AAAAAAFxxUesTo611Vc="
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 331,
+											"width": 294.4169921875,
+											"height": 13,
+											"text": "«create»-Prezydent(imię: string, nazwisko: string)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFxxVIDFI7oof0=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7XI6EsAU="
+											},
+											"model": {
+												"$ref": "AAAAAAFxxVICso7lQBw="
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 346,
+											"width": 294.4169921875,
+											"height": 13,
+											"text": "«destroy»-Prezydent()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFxxUdPZY6xgIY=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7XI6EsAU="
+											},
+											"model": {
+												"$ref": "AAAAAAFxxUdPAI6uScI="
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 361,
+											"width": 294.4169921875,
+											"height": 13,
+											"underline": true,
+											"text": "+wybierz_prezydenta(imie: string, nazwisko: string)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFxxU94HI7aX58=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7XI6EsAU="
+											},
+											"model": {
+												"$ref": "AAAAAAFxxU93vo7XxqI="
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 376,
+											"width": 294.4169921875,
+											"height": 13,
+											"underline": true,
+											"text": "+usuń_prezydenta()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFxxU3vMI7N9ZE=",
+											"_parent": {
+												"$ref": "AAAAAAFxxUV7XI6EsAU="
+											},
+											"model": {
+												"$ref": "AAAAAAFxxU3uuI7K6OE="
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 391,
+											"width": 294.4169921875,
+											"height": 13,
+											"underline": true,
+											"text": "+prezydent(): Prezydent&",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 344,
+									"top": 326,
+									"width": 304.4169921875,
+									"height": 83
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFxxUV7XI6FJMo=",
+									"_parent": {
+										"$ref": "AAAAAAFxxUV7W459Nd8="
+									},
+									"model": {
+										"$ref": "AAAAAAFxxUV7Wo57984="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -120,
+									"top": -32,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFxxUV7XI6G/Sc=",
+									"_parent": {
+										"$ref": "AAAAAAFxxUV7W459Nd8="
+									},
+									"model": {
+										"$ref": "AAAAAAFxxUV7Wo57984="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -120,
+									"top": -32,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 344,
+							"top": 248,
+							"width": 304.4169921875,
+							"height": 161,
+							"nameCompartment": {
+								"$ref": "AAAAAAFxxUV7W45+1BE="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAFxxUV7XI6DFIU="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFxxUV7XI6EsAU="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFxxUV7XI6FJMo="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFxxUV7XI6G/Sc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFxxUV7Wo57984=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Prezydent",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFxxUbaFY6m7+w=",
+							"_parent": {
+								"$ref": "AAAAAAFxxUV7Wo57984="
+							},
+							"name": "aktualny_prezydent",
+							"visibility": "private",
+							"isStatic": true,
+							"type": "Prezydent*"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFxxVMEU47xvFk=",
+							"_parent": {
+								"$ref": "AAAAAAFxxUV7Wo57984="
+							},
+							"name": "imię",
+							"type": "string"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFxxVNT1474gbw=",
+							"_parent": {
+								"$ref": "AAAAAAFxxUV7Wo57984="
+							},
+							"name": "nazwisko",
+							"type": "string"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFxxUesTo611Vc=",
+							"_parent": {
+								"$ref": "AAAAAAFxxUV7Wo57984="
+							},
+							"name": "Prezydent",
+							"stereotype": "create",
+							"visibility": "private",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFxxYYMTY8KRWg=",
+									"_parent": {
+										"$ref": "AAAAAAFxxUesTo611Vc="
+									},
+									"name": "imię",
+									"type": "string"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFxxYYMTY8L+n0=",
+									"_parent": {
+										"$ref": "AAAAAAFxxUesTo611Vc="
+									},
+									"name": "nazwisko",
+									"type": "string"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFxxVICso7lQBw=",
+							"_parent": {
+								"$ref": "AAAAAAFxxUV7Wo57984="
+							},
+							"name": "Prezydent",
+							"stereotype": "destroy",
+							"visibility": "private"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFxxUdPAI6uScI=",
+							"_parent": {
+								"$ref": "AAAAAAFxxUV7Wo57984="
+							},
+							"name": "wybierz_prezydenta",
+							"isStatic": true,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFxxYZ87Y8Pf2o=",
+									"_parent": {
+										"$ref": "AAAAAAFxxUdPAI6uScI="
+									},
+									"name": "imie",
+									"type": "string"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFxxYZ87Y8QgJE=",
+									"_parent": {
+										"$ref": "AAAAAAFxxUdPAI6uScI="
+									},
+									"name": "nazwisko",
+									"type": "string"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFxxU93vo7XxqI=",
+							"_parent": {
+								"$ref": "AAAAAAFxxUV7Wo57984="
+							},
+							"name": "usuń_prezydenta",
+							"isStatic": true
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFxxU3uuI7K6OE=",
+							"_parent": {
+								"$ref": "AAAAAAFxxUV7Wo57984="
+							},
+							"name": "prezydent",
+							"isStatic": true,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFxxU4Sk47RwgA=",
+									"_parent": {
+										"$ref": "AAAAAAFxxU3uuI7K6OE="
+									},
+									"type": "Prezydent&",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

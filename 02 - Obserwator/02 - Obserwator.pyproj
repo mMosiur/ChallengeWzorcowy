@@ -1,0 +1,50 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>9c7af8ea-2299-476a-800e-eb51b5dba0d3</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Kod\main.py</StartupFile>
+    <SearchPath>Kod</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>02 - Obserwator</Name>
+    <RootNamespace>02 - Obserwator</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Diagram\" />
+    <Folder Include="Kod\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Diagram\Diagram.png" />
+    <Content Include="Diagram\Diagram.uml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Kod\CzujnikSwiatla.py" />
+    <Compile Include="Kod\main.py" />
+    <Compile Include="Kod\Obserwable.py" />
+    <Compile Include="Kod\Obserwator.py" />
+    <Compile Include="Kod\Ogrzewanie.py" />
+    <Compile Include="Kod\OswietlenieDomowe.py" />
+    <Compile Include="Kod\OswietlenieOgrodowe.py" />
+    <Compile Include="Kod\Termometr.py" />
+    <Compile Include="Kod\Urzadzenie.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
