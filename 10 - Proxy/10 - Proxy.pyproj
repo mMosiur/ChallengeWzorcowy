@@ -1,0 +1,53 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>fecddfde-37ea-4598-b273-7d398115d2d1</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Kod\main.py</StartupFile>
+    <SearchPath>Kod</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>10 - Proxy</Name>
+    <RootNamespace>10 - Proxy</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Diagram\" />
+    <Folder Include="Kod\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Kod\cyfrypi.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kod\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kod\pi.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kod\piproxy.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Diagram\Diagram.mdj" />
+    <Content Include="Diagram\Diagram.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
