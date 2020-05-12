@@ -38,6 +38,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "14 - Memento", "14 - Mement
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15 - Metoda Szablonowa", "15 - Metoda Szablonowa\15 - Metoda Szablonowa.vcxproj", "{E9DB4A33-4B48-417F-9439-1833CF444C2F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16 - Mediator", "16 - Mediator\16 - Mediator.vcxproj", "{BD3E7CB0-FD73-498B-B058-739BB6063589}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,17 @@ Global
 		{E9DB4A33-4B48-417F-9439-1833CF444C2F}.Release|x64.Build.0 = Release|x64
 		{E9DB4A33-4B48-417F-9439-1833CF444C2F}.Release|x86.ActiveCfg = Release|Win32
 		{E9DB4A33-4B48-417F-9439-1833CF444C2F}.Release|x86.Build.0 = Release|Win32
+		{BD3E7CB0-FD73-498B-B058-739BB6063589}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{BD3E7CB0-FD73-498B-B058-739BB6063589}.Debug|Any CPU.Build.0 = Debug|Win32
+		{BD3E7CB0-FD73-498B-B058-739BB6063589}.Debug|x64.ActiveCfg = Debug|x64
+		{BD3E7CB0-FD73-498B-B058-739BB6063589}.Debug|x64.Build.0 = Debug|x64
+		{BD3E7CB0-FD73-498B-B058-739BB6063589}.Debug|x86.ActiveCfg = Debug|Win32
+		{BD3E7CB0-FD73-498B-B058-739BB6063589}.Debug|x86.Build.0 = Debug|Win32
+		{BD3E7CB0-FD73-498B-B058-739BB6063589}.Release|Any CPU.ActiveCfg = Release|Win32
+		{BD3E7CB0-FD73-498B-B058-739BB6063589}.Release|x64.ActiveCfg = Release|x64
+		{BD3E7CB0-FD73-498B-B058-739BB6063589}.Release|x64.Build.0 = Release|x64
+		{BD3E7CB0-FD73-498B-B058-739BB6063589}.Release|x86.ActiveCfg = Release|Win32
+		{BD3E7CB0-FD73-498B-B058-739BB6063589}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
