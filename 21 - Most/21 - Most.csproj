@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_21___Most</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Diagram\" />
+  </ItemGroup>
+
+</Project>

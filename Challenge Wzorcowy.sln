@@ -48,6 +48,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19 - Budowniczy", "19 - Bud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 - Łańcuch Odpowiedzialności", "20 - Łańcuch Odpowiedzialności\20 - Łańcuch Odpowiedzialności.csproj", "{803C1D57-8DDE-4D45-A7F6-32830884A537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21 - Most", "21 - Most\21 - Most.csproj", "{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -247,6 +249,18 @@ Global
 		{803C1D57-8DDE-4D45-A7F6-32830884A537}.Release|x64.Build.0 = Release|Any CPU
 		{803C1D57-8DDE-4D45-A7F6-32830884A537}.Release|x86.ActiveCfg = Release|Any CPU
 		{803C1D57-8DDE-4D45-A7F6-32830884A537}.Release|x86.Build.0 = Release|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Debug|x64.Build.0 = Debug|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Debug|x86.Build.0 = Debug|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Release|x64.ActiveCfg = Release|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Release|x64.Build.0 = Release|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Release|x86.ActiveCfg = Release|Any CPU
+		{E7C20DF7-0BF4-4647-AA6D-11BA2D99FD23}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
